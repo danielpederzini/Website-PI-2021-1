@@ -1,0 +1,57 @@
+body {
+    margin: 0;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+}
+
+.orange {
+    color: #FA6920;
+}
+
+.div_header {
+    background-color: #363636;
+    overflow: auto;
+    padding-top: 30px;
+    padding-bottom: 35px;
+    border-bottom: 3px solid #FA6920;
+}
+
+.div_title {
+    font-family: sans-serif;
+    color: white;
+    font-weight: 900;
+    font-size: 25px;
+    width: auto;
+    float: left;
+}
+
+.div_navbar {
+    font-family: sans-serif;
+    color: white;
+    font-weight: 900;
+    font-size: 15px;
+    width: auto;
+    float: right;
+    margin-top: 9px;
+}
+
+ul {
+    margin: 0;
+}
+
+li {
+    list-style: none;
+    float: left;
+    padding-left: 10px;
+    text-transform: uppercase;
+}
+
+.bg_img {
+    width: 100%;
+}
+
+
+
