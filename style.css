@@ -11,7 +11,7 @@ body {
     color: #FA6920;
 }
 
-.div_header {
+.header {
     background-color: #363636;
     overflow: auto;
     padding-top: 30px;
@@ -19,7 +19,7 @@ body {
     border-bottom: 3px solid #FA6920;
 }
 
-.div_title {
+.title {
     font-family: sans-serif;
     color: white;
     font-weight: 900;
@@ -28,7 +28,7 @@ body {
     float: left;
 }
 
-.div_navbar {
+.navbar {
     font-family: sans-serif;
     color: white;
     font-weight: 900;
@@ -52,6 +52,16 @@ li {
 .bg_img {
     width: 100%;
 }
+
+.section {
+    background-color: #363636;
+    overflow: auto;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    border-bottom: 3px solid #FA6920;
+    border-top: 3px solid #FA6920;
+}
+
 
 
 
