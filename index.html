@@ -5,11 +5,14 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Site institucional</title>
+    <title>PetLink - Home</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="img/logo.png">
 </head>
 
 <body>
+
+    <!-- Header -->
 
     <div class="header">
 
@@ -17,18 +20,21 @@
 
             <div class="header_content">
 
-                <div class="catlink">
-                    <span class="blue">Cat</span>Link
-                    <img class="logo" src="img/logo.png" alt="Logo CatLink">
+                <div class="petlink">
+
+                    <span class="name"><span class="blue">Pet</span>Link</span>
+                    <img class="logo" src="img/logo.png" alt="Logo PetLink">
+
                 </div>
-    
+
                 <div class="navbar">
 
-                    <a class="blue" href="">Home</a>
-                    <a href="#about">About</a>
-                    <a href="">Contact</a> 
-                    <a href="">Login</a> 
-                    <a href="">Sign up</a> 
+                    <a href="#home" class="blue">Home</a>
+                    <a href="#about">Sobre</a>
+                    <a href="#contact">Contato</a>
+                    <a href="adopt.html">Adotar</a>
+                    <a href="login.html">Entrar</a>
+                    <a href="signup.html">Cadastrar-se</a>
 
                 </div>
 
@@ -38,70 +44,150 @@
 
     </div>
 
+    <!-- Espaço para o header não cobrir a imagem -->
+
     <div class="header_space"></div>
 
 
-    <div class="banner">
+
+    <!-- Banner -->
+
+    <div class="banner" id="home">
 
         <div class="container">
 
             <h1 class="banner_highlight">
-                Your cat deserve the best, and so we are
+                Salve uma vida e ganhe um amigo
             </h1>
 
-            <h3 class="banner_text">
-                Lorem ipsum dolor sit amet consectetur, 
-                adipisicing elit.
-            </h3>
+            <p class="banner_text">
+                O mundo precisa de mais amor, adote um coraçãozinho
+            </p>
 
         </div>
 
     </div>
+
+
+
+    <!-- Section about -->
 
     <div class="section">
 
         <div class="container">
 
-            <div class="about" id="about">
-                
-                <div class="box">
+            <div class="mvv" id="about">
 
-                    <img src="img/goal.png" alt="Ícone de missão">
+                <div class="boxes">
 
-                    <b>Mission</b>
+                    <div class="box">
 
-                    <span>
-                        Lorem ipsum dolor sit amet consectetur, 
-                        adipisicing elit.
-                    </span> 
+                        <img src="img/goal.png" alt="Ícone de missão">
+
+                        <h1>Missão</h1>
+
+                        <p>
+                            Utilizar a tecnologia como ferramenta para
+                            ajudar animais abandonados a encontrarem um
+                            novo lar, onde possam receber amor e carinho
+                        </p>
+
+                    </div>
+
+                    <div class="box">
+
+                        <img src="img/vision.png" alt="Ícone de visão">
+
+                        <h1>Visão</h1>
+
+                        <p>
+                            O mundo está cheio de pessoas ruins, mas
+                            acreditamos que a bondade ainda existe. É
+                            por isso que unimos forças para tornar o nosso
+                            planeta um lugar melhor, para nós e para os
+                            animais
+                        </p>
+
+                    </div>
+
+                    <div class="box">
+
+                        <img src="img/values.png" alt="Ícone de valores">
+
+                        <h1>Valores</h1>
+
+                        <p>
+                            Amor, respeito, união, empatia, bondade,
+                            iniciativa, confiança e...
+                        </p>
+
+                        <span>Fazer a diferença</span>
+
+                    </div>
 
                 </div>
 
-                <div class="box">
+            </div>
 
-                    <img src="img/vision.png" alt="Ícone de visão">
-                    
-                    <b>Vision</b>
 
-                    <span>
-                        Lorem ipsum dolor sit amet consectetur, 
-                        adipisicing elit.
-                    </span> 
-                    
-                </div> 
-                
-                <div class="box">
 
-                    <img src="img/values.png" alt="Ícone de valores">
+            <div class="solution">
 
-                    <b>Values</b>
+                <h1>Como tudo funciona</h1>
 
-                    <span>
-                        Lorem ipsum dolor sit amet consectetur, 
-                        adipisicing elit.
-                    </span> 
-                    
-                </div> 
+                <div class="boxes">
+
+                    <div class="box">
+                        <img src="img/devices.png" alt="Celular e laptop no site PetLink">
+                        <p>
+                            O usuário cria uma conta e faz login
+                            no nosso site gratuitamente
+                        </p>
+                    </div>
+
+                    <div class="box">
+                        <img src="img/goal.png" alt="Gato e cachorro felizes">
+                        <p>
+                            PetShops, pessoas e centros de adoção 
+                            publicam informações sobre seus pets 
+                            que ainda não tem um lar
+                        </p>
+                    </div>
+
+                    <div class="box">
+                        <img src="img/posts.png" alt="Exemplos de posts de adoção">
+                        <p>
+                            O usuário pode navegar pelos posts de 
+                            acordo com sua preferência, ou criar 
+                            o seu próprio
+                        </p>
+                    </div>
+
+                </div>
+
+
+
+                <div class="boxes">
+
+                    <div class="box">
+                        <img src="img/chat.png" alt="Celular e laptop no site PetLink">
+                        <p>
+                            Caso alguém se interessar por algum pet, 
+                            haverá uma aba de chat com o dono do post
+                            para maiores detalhes
+                        </p>
+                    </div>
+
+                    <div class="box">
+                        <img src="img/love_animal.png" alt="Celular e laptop no site PetLink">
+                        <p>
+                            Quando tudo estiver decidido, basta 
+                            confirmar a adoção e receber o seu
+                            novo amigo!
+                        </p>
+                    </div>
+
+                </div>
 
             </div>
 
@@ -109,12 +195,56 @@
 
     </div>
 
+    </div>
+
+
+
+    <!-- Footer -->
+
     <div class="footer">
 
         <div class="container">
 
-            <b>Feito com amor por um aluno <span class="blue">BandTec!</span></b>
-        
+            <div class="footer_content">
+
+                <h1>Feito com amor por um desenvolvedor <span class="blue">BandTec!</span></h1>
+
+                <p>Daniel Pederzini</p>
+
+                <div class="contact" id="contact">
+
+                    <a href="https://www.linkedin.com/in/daniel-pederzini-414353208/" target="_blank">
+
+                        <img src="img/linkedin.png" alt="ícone LinkedIn">
+                        <span>LinkedIn</span>
+
+                    </a>
+
+                    <a href="https://github.com/danielpederzini" target="_blank">
+
+                        <img src="img/github.png" alt="ícone GitHub">
+                        <span>GitHub</span>
+
+                    </a>
+
+                    <a href="https://www.instagram.com/danpdz/" target="_blank">
+
+                        <img src="img/instagram.png" alt="Ícone Instagram">
+                        <span>Instagram</span>
+
+                    </a>
+
+                    <a href="mailto:pederzinidaniel@hotmail.com" target="_blank">
+
+                        <img src="img/outlook.png" alt="Ícone Outlook">
+                        <span>E-mail</span>
+
+                    </a>
+
+                </div>
+
+            </div>
+
         </div>
 
     </div>

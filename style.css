@@ -1,3 +1,10 @@
+/* Estilos da página no geral */
+
+html {
+    scroll-padding-top: 150px;
+    scroll-behavior: smooth;
+}
+
 body {
     margin: 0;
 }
@@ -11,7 +18,20 @@ body {
     color: #6363FF;
 }
 
-/* Estilo Header */
+h1 {
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+
+/* Fim dos estilos da página no geral */
+
+
+/* Estilos do Header */
 
 .header {
     background-color: #202020;
@@ -23,51 +43,51 @@ body {
     width: 100%;
 }
 
-.header_content {
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-}
-
-.catlink {
-    font-family: sans-serif;
-    color: white;
-    font-weight: 900;
-    font-size: 35px;
-    
-    display: flex;
-    align-items: center;
-    justify-content: space-evenly;
-}
-
-.logo {
-    height: 100px;
-    width: 100px;
-    margin-left: 20px;
-}
-
-.navbar {
-    font-family: sans-serif;
-    color: white;
-    font-weight: 900;
-    font-size: 20px;
-    width: auto;
-}
-
-a {
-    text-decoration: none;
-    color: inherit;
-    margin-left: 5px;
-}
-
 .header_space {
     height: 110px;
 }
-/* Estilo Banner */
 
-h1 {
-    margin: 0;
-}
+    .header_content {
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+    }
+
+        .petlink {
+            display: flex;
+            align-items: center;
+            justify-content: space-evenly;
+        }
+
+            .name {
+                font-family: sans-serif;
+                color: white;
+                font-weight: 900;
+                font-size: 35px;
+            }
+
+            .logo {
+                height: 100px;
+                width: 100px;
+                margin-left: 20px;
+            }
+
+        .navbar {
+            font-family: sans-serif;
+            color: white;
+            font-weight: 900;
+            font-size: 20px;
+            width: auto;
+        }
+
+            .navbar a {
+                margin-left: 5px;
+            }
+
+/* Fim dos estilos do Header */
+
+
+/* Estilos do Banner */
 
 .banner {
     text-align: center;
@@ -80,90 +100,210 @@ h1 {
     height: 600px;
 }
 
-.banner_highlight {
-    font-family: sans-serif;
-    font-size: 50px;
-    color: #6363FF;
-    padding-top: 80px;
-    text-shadow: 2px 2px 3px #202020;
-}
+    .banner_highlight {
+        font-family: sans-serif;
+        font-size: 50px;
+        color: #6363FF;
+        padding-top: 50px;
+        text-shadow: 2px 2px 3px #202020;
+    }
 
-.banner_text {
-    font-family: sans-serif;
-    font-size: 25px;
-    color: #505050;
-}
+    .banner_text {
+        font-family: sans-serif;
+        font-size: 25px;
+        color: #505050;
+    }
+
+/* Fim dos estilos do Banner */
 
 
-/* Estilo das Sections */
+/* Estilos das sections no geral */
 
 
 .section {
     background-color: #303030;
     overflow: auto;
 
+    display: flex;
+    flex-direction: column;
+
     padding-top: 100px;
     padding-bottom: 100px;
 
     text-align: center;
 }
 
+/* Fim dos estilos das sections no geral */
 
- /* Section Sobre - Missão Visão Valores */
 
-.about {
-    display: flex;
-    justify-content: space-evenly;
-}
+/* Estilos da section Sobre - Missão Visão Valores */
 
-.box {
-    width: 200px;
+    .mvv .boxes {
+        display: flex;
+        justify-content: space-evenly;
 
-    display: flex;
-    flex-direction: column;
+        padding-bottom: 50px;
+        border-bottom: 1px solid #FFF;
+    }
 
-    padding: 20px 40px 20px 40px;
-    border: 0.1px solid #FFF;
-}
+        .mvv .box {
+            width: 250px;
 
-.box img {
-    height: 200px;
-    margin-bottom: 20px;
-}
+            display: flex;
+            flex-direction: column;
 
-.box b {
-    font-family: sans-serif;
-    font-size: 25px;
-    color: #6363FF;
-    font-weight: 900;
-}
+            align-items: center;
+        }
 
-.box span {
-    font-family: sans-serif;
-    font-size: 20px;
-    color: #FFF;
-}
+            .mvv .box img {
+                height: 200px;
+                width: 200px;
+                margin-bottom: 20px;
+            }
 
-/* Estilo do footer */
+            .mvv .box h1 {
+                font-family: sans-serif;
+                font-size: 25px;
+                color: #6363FF;
+                font-weight: 900;
+            }
+
+            .mvv .box p {
+                font-family: sans-serif;
+                font-size: 20px;
+                color: #FFF;
+            }
+
+            .mvv .box span {
+                font-family: sans-serif;
+                font-size: 20px;
+                color: #FFF;
+                font-weight: 900;
+
+                text-transform: uppercase;
+            }
+
+/* Fim dos estilos da section Sobre - Missão Visão Valores */
+
+
+/* Estilos da section Sobre - Como tudo funciona */
+
+    .solution {
+        text-align: center;
+
+        margin-top: 50px;
+    }
+
+        .solution h1 {
+            font-family: sans-serif;
+            font-size: 40px;
+            color: #6363FF;
+            font-weight: 900;
+        }
+
+        .solution .boxes {
+            display: flex;
+            justify-content: space-evenly;
+
+            margin-top: 50px;
+        }
+    
+            .solution .box {
+                width: 250px;
+    
+                display: flex;
+                flex-direction: column;
+    
+                align-items: center;
+            }
+    
+                .solution .box img {
+                    height: 200px;
+                    width: 200px;
+                    margin-bottom: 20px;
+                }
+    
+                .solution .box h1 {
+                    font-family: sans-serif;
+                    font-size: 25px;
+                    color: #6363FF;
+                    font-weight: 900;
+                }
+    
+                .solution .box p {
+                    font-family: sans-serif;
+                    font-size: 20px;
+                    color: #FFF;
+                }
+    
+                .solution .box span {
+                    font-family: sans-serif;
+                    font-size: 20px;
+                    color: #FFF;
+                    font-weight: 900;
+    
+                    text-transform: uppercase;
+                }
+        
+
+/* Fim dos estilos da section Sobre - Como tudo funciona */
+
+
+/* Estilos do footer */
 
 .footer {
     background-color: #202020;
     overflow: auto;
 
-    padding-top: 100px;
-    padding-bottom: 100px;
-
-    text-align: center;
-
+    padding-top: 50px;
+    padding-bottom: 50px;
 }
 
-.footer b {
-    font-family: sans-serif;
-    font-size: 30px;
-    color: #FFF;
-    font-weight: 900;
+    .footer_content {
+        text-align: center;
+    
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+    }
 
-}
+        .footer_content h1 {
+            font-family: sans-serif;
+            font-size: 30px;
+            color: #FFF;
+            font-weight: 900;
+        }
+
+        .footer_content p {
+            font-family: sans-serif;
+            font-size: 25px;
+            color: #FFF;
+            font-weight: 700;
+
+            padding-bottom: 25px;
+            border-bottom: 1px solid #FFF;
+        }
+
+        .contact {
+            display: flex;
+            justify-content: space-evenly;
+        }
+
+            .contact a img {
+                height: 80px;
+            }
+
+            .contact a span {
+                font-family: sans-serif;
+                font-size: 20px;
+                color: #FFF;
+                font-weight: 700;
+
+                display: flex;
+                flex-direction: column;
+            }
+
+/* Fim dos estilos do footer */
 
 
 
