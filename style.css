@@ -370,23 +370,32 @@ a {
 /* Fim dos estilos da página de adoção */
 
 
-/* Estilos das páginas de login/cadastro */
+/* Estilos das páginas de login/cadastro no geral */
 
     .access {
         display: flex;
-        justify-content: space-evenly;
+        flex-direction: column;
+
+        align-items: center;
+    }
+
+    .login {
+        margin-bottom: 50px;
+    }
+
+    .signup {
+        margin-top: 50px;
     }
 
         .access .box {
             background-color: #303030;
 
             height: auto;
-            width: 500px;
+            width: auto;
 
             border-radius: 50px;
 
-            padding-top: 50px;
-            padding-bottom: 50px;
+            padding: 50px 100px 50px 100px;
 
             display: flex;
             flex-direction: column;
@@ -394,10 +403,6 @@ a {
             align-items: center;
             justify-content: space-evenly;
         }
-
-            /* Como essa é uma section clara, mas o texto
-            está dentro de uma caixa escura, especifiquei
-            estilos para p exclusivamente nessa div */
 
             .access .box .inputs {
                 margin-bottom: 30px;
@@ -413,6 +418,7 @@ a {
                 .access .box .inputs input {
                     background-color: #DFDFDF;
 
+                    height: 30px;
                     width: 300px;
 
                     border-radius: 15px;
@@ -452,6 +458,12 @@ a {
             
                 color: #DFDFDF;
             }
+
+                .access .box a:hover {
+                    opacity: 50%;
+                    transition-duration: 0.2s;
+                }
+
 
 /* Fim dos estilos das páginas de login/cadastro */
 
