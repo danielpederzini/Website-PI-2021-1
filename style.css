@@ -344,26 +344,19 @@ a {
             .adoption .box {
                 background-color: #303030;
 
-                width: 300px;
+                width: 50%;
+
+                padding: 25px 25px 50px 25px;
+                margin: 50px 0 50px 0;
 
                 border-radius: 50px;
 
                 display: flex;
-                flex-direction: column;
+                flex-flow: row wrap;
 
                 align-items: center;
+                justify-content: space-evenly;
             }
-
-            /* Como essa é uma section clara, mas o texto
-            está dentro de uma caixa escura, especifiquei
-            estilos para p exclusivamente nessa div */
-
-                .adoption .box p {
-                    font-family: sans-serif;
-                    font-size: 20px;
-            
-                    color: #FFF;
-                }
 
                 .adoption .box img {
                     height: 200px;
@@ -375,36 +368,38 @@ a {
                     border-radius: 50%;
                 }
 
-                .adoption .options {
-                    width: 80%;
-
+                .adoption .box .description {  
                     display: flex;
-                    flex-flow: row wrap;
-
-                    justify-content: space-evenly;
-                    
-                    padding-top: 25px;
-                    padding-bottom: 50px;
+                    flex-direction: column;
                 }
 
-                    .adoption .options a {
+                    .adoption .box .description p {
                         font-family: sans-serif;
-                        font-size: 25px;
-                        font-weight: 900;
+                        font-size: 20px;
 
-                        color: #DFDFDF;
-
-                        padding: 5px 10px 5px 10px;
-                        background-color: #6363FF;
-
-                        border-radius: 20px;
+                        color: #FFF;
                     }
 
-                        .adoption .options a:hover {
+                    .adoption .box .description a {
+                        background: #DFDFDF;
+
+                        border-radius: 10px;
+
+                        font-family: sans-serif;
+                        font-size: 20px;
+                        font-weight: 900;
+
+                        color: #6363FF;
+
+                        padding: 10px 5px 10px 5px; 
+                    }
+
+                        .adoption .box .description a:hover {
                             opacity: 50%;
                             transition-duration: 0.2s;
                         }
-
+                
+               
 /* Fim dos estilos da página de adoção */
 
 
