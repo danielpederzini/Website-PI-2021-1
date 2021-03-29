@@ -123,7 +123,7 @@ a {
 .banner {
     height: 600px;
     
-    background-image: url(img/cat.jpg);
+    background-image: url(img/cat_wide_banner.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed; 
@@ -136,7 +136,7 @@ a {
     .banner {
         height: 600px;
         
-        background-image: url(img/mobile_cat.jpg);
+        background-image: url(img/dog_small_banner.jpg);
         background-size: cover;
         background-repeat: no-repeat;
         background-attachment: fixed;
