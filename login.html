@@ -6,8 +6,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>PetLink - Entrar</title>
-    <link rel="stylesheet" href="style.css">
-    <link rel="icon" href="img/logo.png">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="icon" href="./img/logo.png">
 </head>
 
 <body>
@@ -45,37 +45,37 @@
     </div>
 
 
-     <!-- Como o header é fixo, há um espaço atrás dele 
+    <!-- Como o header é fixo, há um espaço atrás dele 
         para que ele não cubra o conteúdo -->
 
     <div class="ghost_header">
 
-            <div class="container">
-    
-                <div class="header_content">
-    
-                    <div class="petlink">
-    
-                        <span class="name"><span class="blue">Pet</span>Link</span>
-                        <img class="logo" src="img/logo.png" alt="Logo PetLink">
-    
-                    </div>
-    
-                    <div class="navbar">
-    
-                        <a href="#home" class="blue">Home</a>
-                        <a href="#about">Sobre</a>
-                        <a href="#contact">Contato</a>
-                        <a href="adopt.html">Adotar</a>
-                        <a href="login.html">Perfil</a>
-                        <a href="login.html">Entrar</a>
-    
-                    </div>
-    
+        <div class="container">
+
+            <div class="header_content">
+
+                <div class="petlink">
+
+                    <span class="name"><span class="blue">Pet</span>Link</span>
+                    <img class="logo" src="img/logo.png" alt="Logo PetLink">
+
                 </div>
-    
+
+                <div class="navbar">
+
+                    <a href="#home" class="blue">Home</a>
+                    <a href="#about">Sobre</a>
+                    <a href="#contact">Contato</a>
+                    <a href="adopt.html">Adotar</a>
+                    <a href="login.html">Perfil</a>
+                    <a href="login.html">Entrar</a>
+
+                </div>
+
             </div>
-    
+
+        </div>
+
     </div>
 
 
@@ -93,19 +93,21 @@
 
                     <div class="box">
 
-                        <h1>Acessar</h1>
+                        <h1>Acesse sua conta</h1>
 
-                        <div class="inserts">
+                        <form class="inserts" action="">
 
-                            <input type="email" placeholder="Usuário ou E-mail" autofocus>
+                            <input type="text" name="login" placeholder="Usuário ou E-mail" autofocus>
 
-                            <br><br>
+                            <br>
 
-                            <input type="password" placeholder="Senha">
+                            <input type="password" name="password" placeholder="Senha">
 
-                        </div>
+                            <br>
 
-                        <button>Entrar</button>
+                            <button>Entrar</button>
+
+                        </form>
 
                         <a href="">Esqueceu sua senha?</a>
 
@@ -123,28 +125,29 @@
 
                         <h1>Criar uma conta</h1>
 
-                        <div class="inserts">
+                        <form class="inserts" action="">
 
                             <input type="text" placeholder="Nome de usuário">
 
                             <input type="email" placeholder="E-mail">
 
-                            <br><br>
+                            <br>
 
                             <input type="text" placeholder="Cidade">
 
                             <input type="text" placeholder="Estado">
 
-                            <br><br>
+                            <br>
 
                             <input type="password" placeholder="Senha">
 
                             <input type="password" placeholder="Confirme sua senha">
 
-                        </div>
+                            <br>
 
-                        <button>Criar conta</button>
+                            <button>Criar conta</button>
 
+                        </form>
                         <br>
 
                         <a href="#login">Já tem uma conta?</a>

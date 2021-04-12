@@ -90,8 +90,7 @@ a {
             por meio de uma classe "blue" */
 
             font-family: sans-serif;
-            font-weight: 900;
-            font-size: 20px;
+            font-size: 22.5px;
                 
             color: white;
 
@@ -118,12 +117,12 @@ a {
 /* Fim dos estilos do Header */
 
 
-/* Estilos do Banner */
+/* Estilos dos Banners */
 
 .banner {
     height: 600px;
     
-    background-image: url(img/cat_wide_banner.jpg);
+    background-image: url(../img/home_banner.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed; 
@@ -131,21 +130,7 @@ a {
     text-align: center;
 }
 
-@media only screen and (max-width: 800px)
-{
-    .banner {
-        height: 600px;
-        
-        background-image: url(img/dog_small_banner.jpg);
-        background-size: cover;
-        background-repeat: no-repeat;
-        background-attachment: fixed;
-    
-        text-align: center;
-    }
-}
-
-    .banner_highlight {
+    .banner h1 {
         font-family: sans-serif;
         font-size: 50px;
         
@@ -156,14 +141,15 @@ a {
         
     }
 
-    .banner_text {
+    .banner p {
         font-family: sans-serif;
         font-size: 25px;
 
         color: #505050;
     }
 
-/* Fim dos estilos do Banner */
+
+/* Fim dos estilos dos Banners */
 
 
 /* Estilos das sections no geral */
@@ -332,7 +318,6 @@ a {
 
         .adoption .boxes {
             width: 100%;
-            margin-top: 50px;
 
             display: flex;
             flex-flow: row wrap;
@@ -403,8 +388,8 @@ a {
 /* Fim dos estilos da página de adoção */
 
 
-/* Estilos das páginas de login/cadastro no geral */
-/* Light Section! */
+/* Estilos da página de login/cadastro no geral */
+/* Banner */
 
     .access {
         display: flex;
@@ -429,7 +414,7 @@ a {
 
                 border-radius: 50px;
 
-                padding: 50px 100px 50px 100px;
+                padding: 50px 50px 50px 50px;
 
                 display: flex;
                 flex-direction: column;
@@ -439,8 +424,7 @@ a {
             }
 
                 .access .box .inserts {
-                    margin-top: 30px;
-                    margin-bottom: 30px;     
+                    margin-top: 30px;   
                 }
 
                     .access .box .inserts p {
@@ -452,6 +436,8 @@ a {
 
                     .access .box .inserts input {
                         background-color: #DFDFDF;
+
+                        margin-bottom: 20px;
 
                         height: 30px;
                         width: 300px;
@@ -502,7 +488,7 @@ a {
                     }
 
 
-/* Fim dos estilos das páginas de login/cadastro */
+/* Fim dos estilos da página de login/cadastro */
 
 
 /* Estilos do footer */
@@ -520,13 +506,12 @@ a {
         display: flex;
         flex-direction: column;
 
-        text-align: center;
+        align-items: center;
     }
 
         .footer_content h1 {
             font-family: sans-serif;
             font-size: 30px;
-            font-weight: 900;
 
             color: #FFF;
         }
@@ -534,19 +519,20 @@ a {
         .footer_content p {
             font-family: sans-serif;
             font-size: 25px;
-            font-weight: 700;
 
             color: #FFF;
-            
-            padding-bottom: 25px;
-            border-bottom: 1px solid #FFF;
         }
 
         .contact {
+            width: 60%;
+
             display: flex;
             flex-flow: row wrap;
 
             justify-content: space-evenly;
+
+            padding-top: 25px;
+            border-top: 1px solid #FFF;
         }
 
             .contact a {
@@ -557,14 +543,13 @@ a {
             }
 
             .contact a img {
-                height: 80px;
-                width: 80px;
+                height: 50px;
+                width: 50px;
             }
 
             .contact a span {
                 font-family: sans-serif;
                 font-size: 20px;
-                font-weight: 700;
 
                 color: #FFF;
             }
